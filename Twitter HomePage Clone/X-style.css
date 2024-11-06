@@ -1,0 +1,506 @@
+.interface{
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    list-style: none;
+    margin: 0px;
+    min-height: 100dvh;
+    min-width: 0px;
+    padding: 0px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex:1;
+    width: 100%;
+   
+}
+.Homepage {
+    background-color: black;
+    overflow: hidden;
+    flex: 1 1 auto;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row-reverse;
+    min-height: auto;
+    direction: ltr;
+    min-width: 0;
+   margin: 0px;
+   padding: none;
+   
+}
+
+.JustifiedContent {
+    justify-content: center;
+}
+
+.Right-part {
+    width: 45vw;
+    align-items: stretch;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    padding: 16px;
+    unicode-bidi: isolate;
+    justify-content: center;
+}
+
+.Right-text {
+    width: 45vw;
+    padding: 20px;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    list-style: none;
+    margin: 0px;
+    min-height: 0px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+}
+
+.Top-part {
+    text-overflow: unset;
+    color: rgb(231, 233, 234);
+    line-height: 84px;
+    letter-spacing: -1.2px;
+    font-size: 64px;
+    word-wrap: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    min-width: 0;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    position: relative;
+}
+
+.Slogan{
+    text-overflow: unset;
+    word-wrap: break-word;
+    font-family: inherit;
+    min-width: 0px;
+    text-align: start;
+    letter-spacing: -1.2px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.Register-title{
+    color:rgb(231, 233, 234);
+    margin-bottom: 32px;
+    line-height: 36px;
+    font-size: 31px;
+    font-weight: 700;
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.Google-registration{
+    margin-bottom: 8px;
+    height: 40px;
+    width: 300px;
+    flex: 0 0 auto;
+}
+
+.Google-details{
+    position: relative;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.Google-container{
+    max-width: 400px;
+    min-width: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    cursor:pointer;
+    font-family: "Google Sans", arial, sans-serif;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 0.25px;
+    padding: 0px 12px;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color:.218s, border-color:.218s;
+}
+
+.head-portrait{
+    border-radius: 50%;
+    display: flex;
+    margin-left: -4px;
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.google-text{
+    font-family: "Roboto";
+    font-size: 12px;
+    text-align: left;
+    vertical-align: top;
+    margin: 0;
+    width: 100%;
+
+}
+
+.top-text{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.bottom-part{
+    display: flex;
+    align-items: center;
+    color: #5f6368;
+    fill: #5f6368;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.logo-part{
+    margin-left: 8px;
+    margin-right: -4px;
+    height: 18px;
+    min-width: 18px;
+    width: 18px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.
+
+.email-address{
+    display: block;
+}
+
+.down-arrow{
+    height: 18px;
+    margin: -3px -3px -3px 2px;
+    min-width: 18px;
+    width: 18px;
+}
+
+.Apple-registration{
+    height: 40px;
+    transition-property: background-color, box-shadow;
+    transition-duration: 2s;
+    cursor: pointer;
+    width: 300px;
+    margin-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+}
+
+.Apple-content{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: center;
+    display:flex;
+    word-wrap: break-word;
+}
+
+.Apple-logo{
+    height: 20px;
+    vertical-align: text-bottom;
+    max-width:100%;
+    position: relative;
+    width: 20px;
+    display: inline-block;
+    margin-right: 4px;
+
+}
+
+.break {
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-size: 14.16px 18px;
+    color: rgb(231, 233, 234);
+}
+
+.Or-text {
+    background-color: black;
+    padding: 0 10px;
+}
+
+.Email-registration{
+    margin-bottom: 8px;
+    height: 40px;
+    transition-duration: 0.2s;
+    transition-property: background-color, box-shadow;
+    cursor: pointer;
+    width: 300px;
+    margin-right: 20px;
+
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    outline-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Email{
+    color: white;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail{
+    line-height: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.Service-terms{
+    text-overflow: unset;
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    text-decoration: none;
+    transition: text-decoration-line 100ms;
+}
+
+.Service-terms:hover{
+    text-decoration-line: underline ;
+}
+
+.Policy{
+    text-overflow: unset;
+    cursor: pointer;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    text-decoration: none;
+    transition: text-decoration-line 100ms;
+    color: rgb(29, 155, 240);
+}
+
+.Policy:hover{
+    text-decoration-line: underline;
+}
+
+.Cookie-terms{
+    text-overflow: unset;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    text-decoration: none;
+    transition: text-decoration-line 100ms;
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+
+.Cookie-terms:hover{
+    text-decoration-line: underline;
+}
+
+.Login-section{
+    margin-top: 40px;
+    align-items: stretch;
+    border: 0 solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.00);
+}
+
+.Question-section{
+    text-overflow: unset;
+    color: rgb(231, 233, 234);
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.Login-btn{
+    margin-bottom: 8px;
+    height: 40px;
+    transition-property: background-color, box-shadow;
+    width: 300px;
+    margin-right: 20px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Login-part{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    align-items: center;
+}
+
+.Login-text{
+    text-decoration: none;
+    display: inline;
+    text-align: inherit;
+}
+
+.left-part{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0;
+    min-height: 45vh;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0px;
+}
+
+.Image {
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    text-decoration: none;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex: 1;
+    unicode-bidi: isolate;
+    pointer-events: none;
+}
+
+.X-icon {
+    color:rgba(231, 233, 234, 1.00);
+    display: inline-block;
+    max-height: 380px;
+    height: 50%;
+    fill: currentColor;
+    vertical-align: text-bottom;
+    user-select: none;
+    max-width: 100%;
+    position: relative;
+    padding: 32px;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    list-style: none;
+}
+
+.Function-menu{
+    background-color: black;
+    transition-property: margin-bottom;
+    transition-duration: 100ms;
+    text-decoration: none;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.Function-text{
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.Text-style{
+    color: rgb(113, 118, 123);
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    word-wrap: break-word;
+    font-size: 13px;    
+    text-align: inherit;
+    cursor: pointer;
+    line-height: 16px;
+    font-weight: 400;
+    padding-right: 16px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+
